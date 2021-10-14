@@ -97,4 +97,6 @@ fig, ax = plt.subplots(figsize = (10,8))
 im = ax.pcolormesh(x, y, potential, shading='auto')
 cb = plt.colorbar(im, ax=ax)
 cb.set_label('Potential V in Volt')
+
+plt.show()
     
