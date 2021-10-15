@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     64437,       1348]
-NotebookOptionsPosition[     61230,       1285]
-NotebookOutlinePosition[     61594,       1301]
-CellTagsIndexPosition[     61551,       1298]
+NotebookDataLength[     71737,       1533]
+NotebookOptionsPosition[     68921,       1476]
+NotebookOutlinePosition[     69346,       1493]
+CellTagsIndexPosition[     69303,       1490]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -56,7 +56,7 @@ Cell[BoxData[
     RowBox[{"x", ",", " ", 
      RowBox[{"-", "10"}], ",", " ", "10"}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.8431227988640847`*^9, 3.843122798866082*^9}},
- CellLabel->"In[73]:=",ExpressionUUID->"3e40bfcc-d31c-4293-a336-04b689ecb894"],
+ CellLabel->"In[3]:=",ExpressionUUID->"3e40bfcc-d31c-4293-a336-04b689ecb894"],
 
 Cell[BoxData[
  GraphicsBox[{{{}, {}, 
@@ -159,7 +159,7 @@ jf1komaUuWmbgzvS9bQQn5piolDVumoVH3e0k8zbdmKWiGsKe2cddkcuec2x
 CwtM1JUWO0M75o4CdyaZRP5lokQvhZMJEe7o//9DEPvS8Le1f93RfwEfny+U
 
        "]]},
-     Annotation[#, "Charting`Private`Tag$21205#1"]& ]}, {}},
+     Annotation[#, "Charting`Private`Tag$8905#1"]& ]}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{None, None},
@@ -200,8 +200,8 @@ CwtM1JUWO0M75o4CdyaZRP5lokQvhZMJEe7o//9DEPvS8Le1f93RfwEfny+U
      Scaled[0.05]}},
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{3.842593937795551*^9, 3.843122740908018*^9, 
-  3.8431228000726566`*^9},
- CellLabel->"Out[73]=",ExpressionUUID->"97621acf-1813-4adb-bb34-4cd7b858aedf"]
+  3.8431228000726566`*^9, 3.843210733037137*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"a049fc9e-51b1-49a4-91bb-c7d528b6298e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -226,14 +226,14 @@ Cell[BoxData[
  CellChangeTimes->{{3.8425940257461376`*^9, 3.8425940592811017`*^9}, {
   3.84259409970262*^9, 3.8425940997682676`*^9}, {3.8431237724187794`*^9, 
   3.8431237734245358`*^9}},
- CellLabel->"In[96]:=",ExpressionUUID->"543378c8-134c-4faf-88e5-74d7a7d1d1ee"],
+ CellLabel->"In[4]:=",ExpressionUUID->"543378c8-134c-4faf-88e5-74d7a7d1d1ee"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"symmetric2x2", "//", "MatrixForm"}]], "Input",
  CellChangeTimes->{{3.8425940647917643`*^9, 3.842594076505172*^9}},
- CellLabel->"In[99]:=",ExpressionUUID->"7717a99a-dace-4d10-b1de-107590a7df46"],
+ CellLabel->"In[5]:=",ExpressionUUID->"7717a99a-dace-4d10-b1de-107590a7df46"],
 
 Cell[BoxData[
  TagBox[
@@ -251,10 +251,10 @@ Cell[BoxData[
         Offset[0.2]}}], "\[NoBreak]", ")"}],
   Function[BoxForm`e$, 
    MatrixForm[BoxForm`e$]]]], "Output",
- CellChangeTimes->{3.843123792679403*^9},
+ CellChangeTimes->{3.843123792679403*^9, 3.843210733117277*^9},
  CellLabel->
-  "Out[99]//MatrixForm=",ExpressionUUID->"e8312583-a386-4ada-aea9-\
-6e1dd8c80761"]
+  "Out[5]//MatrixForm=",ExpressionUUID->"1d171def-21f8-423c-bc0c-\
+6b76c9127fbb"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -269,16 +269,15 @@ Cell[BoxData[
        FractionBox["1", "10"]}]}], "}"}]}]}], ";"}]], "Input",
  CellChangeTimes->{{3.8425941106645613`*^9, 3.84259417345502*^9}, {
   3.842594392183152*^9, 3.842594396992755*^9}},
- CellLabel->
-  "In[100]:=",ExpressionUUID->"59b24c7b-8d2f-42ee-8874-f8f9d7dba854"],
+ CellLabel->"In[6]:=",ExpressionUUID->"59b24c7b-8d2f-42ee-8874-f8f9d7dba854"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"ham", " ", "//", " ", "MatrixForm"}]], "Input",
  CellChangeTimes->{{3.8425941789382515`*^9, 3.84259418292607*^9}, 
-   3.8431238079915705`*^9},ExpressionUUID->"dd5606bb-7d30-474a-b84d-\
-7e21f0121894"],
+   3.8431238079915705`*^9},
+ CellLabel->"In[7]:=",ExpressionUUID->"dd5606bb-7d30-474a-b84d-7e21f0121894"],
 
 Cell[BoxData[
  TagBox[
@@ -299,10 +298,10 @@ Cell[BoxData[
   Function[BoxForm`e$, 
    MatrixForm[BoxForm`e$]]]], "Output",
  CellChangeTimes->{3.842594184063224*^9, 3.8431236187860556`*^9, 
-  3.8431238048622274`*^9},
+  3.8431238048622274`*^9, 3.8432107331595373`*^9},
  CellLabel->
-  "Out[101]//MatrixForm=",ExpressionUUID->"a0d71bb5-509e-4e6a-b132-\
-ca7df77bb2b5"]
+  "Out[7]//MatrixForm=",ExpressionUUID->"2ea85004-fd4c-45e4-b6e3-\
+4a6cc71d0cc1"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -311,8 +310,7 @@ Cell[BoxData[
  RowBox[{"evals", "=", 
   RowBox[{"Eigenvalues", "[", "ham", "]"}]}]], "Input",
  CellChangeTimes->{{3.8425941960821285`*^9, 3.84259421436924*^9}},
- CellLabel->
-  "In[102]:=",ExpressionUUID->"96249be6-1b5c-47e8-a32f-4c66b1b9eeae"],
+ CellLabel->"In[8]:=",ExpressionUUID->"96249be6-1b5c-47e8-a32f-4c66b1b9eeae"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -338,9 +336,8 @@ Cell[BoxData[
         RowBox[{"25", " ", 
          SuperscriptBox["x", "2"]}]}]]}], ")"}]}]}], "}"}]], "Output",
  CellChangeTimes->{3.8425942152254286`*^9, 3.843123618808961*^9, 
-  3.8431238127965555`*^9},
- CellLabel->
-  "Out[102]=",ExpressionUUID->"c99e8fa5-eeeb-42c5-9a12-6c5f20eb3374"]
+  3.8431238127965555`*^9, 3.843210733190787*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"0110d0d3-03c1-4ff2-be87-60974f46f1d9"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -351,7 +348,7 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{"x", ",", "0", ",", "2"}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.842594233278819*^9, 3.842594245581888*^9}},
- CellLabel->"In[79]:=",ExpressionUUID->"3a30291e-db49-450d-8649-cc8ad06d77e1"],
+ CellLabel->"In[9]:=",ExpressionUUID->"3a30291e-db49-450d-8649-cc8ad06d77e1"],
 
 Cell[BoxData[
  GraphicsBox[{{{}, {}, 
@@ -415,7 +412,7 @@ mXWKqceavPcM5M8rXNVgvbtgQ/X2fgZb1mrPNmH9ILj1ecQXBtmpbTf9Waeu
 BpYv+YtqWQ/eNT3h+Z1B6KCGxlPWdSfyNupPM2gmIpe+Yf2XpqKEYRhkeWmp
 DbH+H+Y0TZE=
        "]]},
-     Annotation[#, "Charting`Private`Tag$21264#1"]& ], 
+     Annotation[#, "Charting`Private`Tag$8958#1"]& ], 
     TagBox[
      {RGBColor[0.880722, 0.611041, 0.142051], AbsoluteThickness[1.6], Opacity[
       1.], LineBox[CompressedData["
@@ -479,7 +476,7 @@ aeRf1wtSn8ZiX1+9Ln6bkMbLQseGmOkstk93oqPaABOHV6auaAaLvcL2eFfp
 EI34eRPC/FkstoxUw/1LozS8q8W2ynNY7G/5xh4HJmjUpf6Z9R85FrvI456O
 roSGaNx7To88i31j0Yxhmmb+0UDiZ6nAYv8P3vOnnQ==
        "]]},
-     Annotation[#, "Charting`Private`Tag$21264#2"]& ]}, {}},
+     Annotation[#, "Charting`Private`Tag$8958#2"]& ]}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{None, None},
@@ -519,8 +516,8 @@ roSGaNx7To88i31j0Yxhmmb+0UDiZ6nAYv8P3vOnnQ==
      Scaled[0.05], 
      Scaled[0.05]}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.843123618850312*^9},
- CellLabel->"Out[79]=",ExpressionUUID->"c19fab4e-8eac-4b7d-86c9-896c714e773a"]
+ CellChangeTimes->{3.843123618850312*^9, 3.843210733231318*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"c6ea9ed9-5709-41b8-990b-8c5a861a6cdb"]
 }, Open  ]]
 }, Open  ]],
 
@@ -556,8 +553,7 @@ Cell[BoxData[{
  RowBox[{"Plot", "[", 
   RowBox[{"evals", ",", 
    RowBox[{"{", 
-    RowBox[{"x", ",", "0", ",", "2"}], "}"}]}], 
-  "]"}], "\[IndentingNewLine]", 
+    RowBox[{"x", ",", "0", ",", "2"}], "}"}]}], "]"}], "\[IndentingNewLine]", 
  RowBox[{"evecs", ":=", 
   RowBox[{"Eigenvectors", "[", "ham", "]"}]}], "\[IndentingNewLine]", 
  RowBox[{
@@ -577,8 +573,7 @@ Cell[BoxData[{
    3.8431239727157955`*^9, 3.8431239780655475`*^9}, {3.843124280061905*^9, 
    3.8431243245428658`*^9}, {3.843124375072461*^9, 3.8431243829208984`*^9}, {
    3.843136968486847*^9, 3.8431369696611443`*^9}},
- CellLabel->
-  "In[171]:=",ExpressionUUID->"5ba02e51-4c0f-4dbd-bdbe-08103c233969"],
+ CellLabel->"In[10]:=",ExpressionUUID->"5ba02e51-4c0f-4dbd-bdbe-08103c233969"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -606,9 +601,8 @@ Cell[BoxData[
  CellChangeTimes->{
   3.843123745762978*^9, 3.8431239254160905`*^9, 3.843123979425488*^9, {
    3.843124280961064*^9, 3.843124325156118*^9}, {3.843124376296845*^9, 
-   3.8431243838536315`*^9}, 3.8431369711497927`*^9},
- CellLabel->
-  "Out[173]=",ExpressionUUID->"14831bcc-a69d-417a-bb84-06da6efb29b9"],
+   3.8431243838536315`*^9}, 3.8431369711497927`*^9, 3.843210733275078*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"0459309c-32cc-4772-9104-f49305d726a7"],
 
 Cell[BoxData[
  GraphicsBox[{{{}, {}, 
@@ -672,7 +666,7 @@ mXWKqceavPcM5M8rXNVgvbtgQ/X2fgZb1mrPNmH9ILj1ecQXBtmpbTf9Waeu
 BpYv+YtqWQ/eNT3h+Z1B6KCGxlPWdSfyNupPM2gmIpe+Yf2XpqKEYRhkeWmp
 DbH+H+Y0TZE=
        "]]},
-     Annotation[#, "Charting`Private`Tag$24825#1"]& ], 
+     Annotation[#, "Charting`Private`Tag$9005#1"]& ], 
     TagBox[
      {RGBColor[0.880722, 0.611041, 0.142051], AbsoluteThickness[1.6], Opacity[
       1.], LineBox[CompressedData["
@@ -736,7 +730,7 @@ aeRf1wtSn8ZiX1+9Ln6bkMbLQseGmOkstk93oqPaABOHV6auaAaLvcL2eFfp
 EI34eRPC/FkstoxUw/1LozS8q8W2ynNY7G/5xh4HJmjUpf6Z9R85FrvI456O
 roSGaNx7To88i31j0Yxhmmb+0UDiZ6nAYv8P3vOnnQ==
        "]]},
-     Annotation[#, "Charting`Private`Tag$24825#2"]& ]}, {}},
+     Annotation[#, "Charting`Private`Tag$9005#2"]& ]}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{None, None},
@@ -779,9 +773,8 @@ roSGaNx7To88i31j0Yxhmmb+0UDiZ6nAYv8P3vOnnQ==
  CellChangeTimes->{
   3.843123745762978*^9, 3.8431239254160905`*^9, 3.843123979425488*^9, {
    3.843124280961064*^9, 3.843124325156118*^9}, {3.843124376296845*^9, 
-   3.8431243838536315`*^9}, 3.843136972834044*^9},
- CellLabel->
-  "Out[174]=",ExpressionUUID->"27f161e5-0137-40aa-8d40-2a375eaaec3b"],
+   3.8431243838536315`*^9}, 3.8431369711497927`*^9, 3.843210733321945*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"dcaee1e8-ec2b-4d80-9d51-591b983de500"],
 
 Cell[BoxData[
  GraphicsBox[{{{}, {}, 
@@ -905,7 +898,7 @@ y/Z/SgcjzMgs+BRUrilm22U83kKKxkLFv8b+nWzLGt0eqWawIOoebMWdx34v
 nN9TI5dYOKKsmyPN9miRpuOlVRauBuxa1GK7wvHtPpU/LDRWKajYsP1qBx+T
 xWJheOdNO3e2/w+wk/BQ
        "]]},
-     Annotation[#, "Charting`Private`Tag$24876#1"]& ], 
+     Annotation[#, "Charting`Private`Tag$9057#1"]& ], 
     TagBox[
      {RGBColor[0.880722, 0.611041, 0.142051], AbsoluteThickness[1.6], Opacity[
       1.], LineBox[CompressedData["
@@ -1026,7 +1019,7 @@ a1+MGZWv3/rJygCJUHgMJVpsZvDQY/pC+aVYKBSMrvVXsnn89+yWPtJ8CIQF
 f6U9muL382S7SU2FYKD0oPPlGR4Exqxu6o2HoMI5VUV1nofp5Ss5XqQQxMmJ
 cXg8Hn7XvxvNHArB/wD8Xg+y
        "]]},
-     Annotation[#, "Charting`Private`Tag$24876#2"]& ]}, {}},
+     Annotation[#, "Charting`Private`Tag$9057#2"]& ]}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{None, None},
@@ -1069,36 +1062,385 @@ cXg8Hn7XvxvNHArB/wD8Xg+y
  CellChangeTimes->{
   3.843123745762978*^9, 3.8431239254160905`*^9, 3.843123979425488*^9, {
    3.843124280961064*^9, 3.843124325156118*^9}, {3.843124376296845*^9, 
-   3.8431243838536315`*^9}, 3.8431369732583847`*^9},
- CellLabel->
-  "Out[177]=",ExpressionUUID->"eecf0920-265f-481a-a985-727f23d52e9f"]
+   3.8431243838536315`*^9}, 3.8431369711497927`*^9, 3.843210733475675*^9},
+ CellLabel->"Out[16]=",ExpressionUUID->"74fa7b12-1a20-4b5d-b7c8-6df2e6fdd5fb"]
 }, Open  ]],
 
-Cell["\<\
-The configured Hamiltonian describes the behaviour of two energy states (e1=1 \
-and e0=0)  that are coupled over a 
-fixed interaction potential (V=1/10). The lower initial energy state is \
-changed linearly with a parameter x.
+Cell[BoxData[
+ FormBox[
+  RowBox[{"\t\t\t", 
+   RowBox[{
+    RowBox[{"Naming", " ", 
+     RowBox[{"convention", ":", "\t", 
+      RowBox[{
+       TemplateBox[Association["boxes" -> FormBox[
+           OverscriptBox[
+            StyleBox["H", "TI"], "^"], TraditionalForm], "errors" -> {}, 
+         "input" -> "\\hat {H}", "state" -> "Boxes"],
+        "TeXAssistantTemplate"], 
+       TagBox[
+        RowBox[{"=", 
+         RowBox[{
+          TagBox[
+           RowBox[{"(", "\[NoBreak]", GridBox[{
+              {
+               TemplateBox[Association["boxes" -> FormBox[
+                   SubscriptBox[
+                    StyleBox["e", "TI"], "0"], TraditionalForm], 
+                 "errors" -> {}, "input" -> "e_ 0", "state" -> "Boxes"],
+                "TeXAssistantTemplate"], "V"},
+              {"V", 
+               TemplateBox[Association["boxes" -> FormBox[
+                   SubscriptBox[
+                    StyleBox["e", "TI"], "1"], TraditionalForm], 
+                 "errors" -> {}, "input" -> "e_ 1", "state" -> "Boxes"],
+                "TeXAssistantTemplate"]}
+             },
+             
+             GridBoxAlignment->{
+              "Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+             GridBoxSpacings->{"Columns" -> {
+                 Offset[0.27999999999999997`], {
+                  Offset[0.7]}, 
+                 Offset[0.27999999999999997`]}, "Rows" -> {
+                 Offset[0.2], {
+                  Offset[0.4]}, 
+                 Offset[0.2]}}], "\[NoBreak]", ")"}],
+           Function[BoxForm`e$, 
+            MatrixForm[BoxForm`e$]]], "=", 
+          RowBox[{"(", "\[NoBreak]", GridBox[{
+             {"x", 
+              FractionBox["1", "10"]},
+             {
+              FractionBox["1", "10"], "1"}
+            },
+            
+            GridBoxAlignment->{
+             "Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.7]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[0.4]}, 
+                Offset[0.2]}}], "\[NoBreak]", ")"}]}]}],
+        Function[BoxForm`e$, 
+         MatrixForm[BoxForm`e$]]]}]}]}], "   ", ",", " ", 
+    RowBox[{
+     TemplateBox[Association["boxes" -> FormBox[
+         RowBox[{"|", 
+           SubscriptBox["\[CapitalPsi]", "0"], ">"}], TraditionalForm], 
+       "errors" -> {}, "input" -> "| \\Psi_ 0>", "state" -> "Boxes"],
+      "TeXAssistantTemplate"], "=", 
+     RowBox[{
+      RowBox[{
+       TemplateBox[Association["boxes" -> FormBox[
+           RowBox[{"(", 
+             Cell[
+              BoxData[
+               FormBox[
+                GridBox[{{
+                   Cell[
+                    TextData[{" ", 
+                    Cell["1", "InlineFormula"], " "}]]}, {
+                   Cell[
+                    TextData[{" ", 
+                    Cell["0", "InlineFormula"], " "}]]}}], TraditionalForm]]],
+              ")"}], TraditionalForm], "errors" -> {}, "input" -> 
+         "\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}", "state" -> "Boxes"],
+        "TeXAssistantTemplate"], "  ", 
+       TemplateBox[Association["boxes" -> FormBox[
+           RowBox[{"|", 
+             SubscriptBox["\[CapitalPsi]", "1"], ">"}], TraditionalForm], 
+         "errors" -> {}, "input" -> "| \\Psi_ 1>", "state" -> "Boxes"],
+        "TeXAssistantTemplate"]}], "=", 
+      TemplateBox[Association["boxes" -> FormBox[
+          RowBox[{"(", 
+            Cell[
+             BoxData[
+              FormBox[
+               GridBox[{{
+                  Cell[
+                   TextData[{" ", 
+                    Cell["0", "InlineFormula"], " "}]]}, {
+                  Cell[
+                   TextData[{" ", 
+                    Cell["1", "InlineFormula"], " "}]]}}], TraditionalForm]]],
+             ")"}], TraditionalForm], "errors" -> {}, "input" -> 
+        "\\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix}", "state" -> "Boxes"],
+       "TeXAssistantTemplate"]}]}], " ", ",", "  ", 
+    TemplateBox[Association["boxes" -> FormBox[
+        RowBox[{
+          OverscriptBox[
+           StyleBox["H", "TI"], "^"], "|", 
+          SubscriptBox["\[CapitalPsi]", "\[PlusMinus]"], ">", "\[LongEqual]", 
+          SubscriptBox[
+           StyleBox["E", "TI"], "\[PlusMinus]"], "|", 
+          SubscriptBox["\[CapitalPsi]", "\[PlusMinus]"], ">"}], 
+        TraditionalForm], "errors" -> {}, "input" -> 
+      "\\hat {H} | \\Psi_ \\pm > = E_ \\pm | \\Psi_ \\pm >", "state" -> 
+      "Boxes"],
+     "TeXAssistantTemplate"]}]}], TraditionalForm]], "Text", "Input",
+ CellChangeTimes->{{3.8432107668722315`*^9, 3.843210836075413*^9}, {
+   3.843211065018022*^9, 3.8432112145896063`*^9}, {3.843211277796001*^9, 
+   3.843211278799777*^9}, 3.8432113220820684`*^9, {3.8432113796591663`*^9, 
+   3.843211492302973*^9}, {3.8432115283284645`*^9, 3.843211537265672*^9}, {
+   3.8432115690624075`*^9, 3.843211639332351*^9}, {3.8432117262490826`*^9, 
+   3.8432117554516664`*^9}},ExpressionUUID->"5375db03-28bd-4ade-9c96-\
+a546ca3c40b1"],
 
-The upper graph shows the evolution of the energies of the new eigenstates Pp \
-and Pm as function of x, 
-here now referred as E_p  and E_m. For x=0 it is E_p(0)=1=e1 and E_m(0)=0 \
-which is the initial state without an interaction.
-Until about x=0.8 E_m rises linearly with x and E_p remains roughly constant \
-which corresponds to the behaviour of the 
+Cell[TextData[{
+ "The configured Hamiltonian describes the behaviour of two energy states (",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["e", "TI"], "1"], "\[LongEqual]", "1"}], TraditionalForm], 
+     "errors" -> {}, "input" -> "e_1=1", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "df387939-3f16-44de-a385-d1ef3e285cf9"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["e", "TI"], "0"], "\[LongEqual]", "0"}], TraditionalForm], 
+     "errors" -> {}, "input" -> "e_0=0", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "7e708e16-fc36-4c84-88aa-c0b35578025b"],
+ ")  that are coupled over a \nfixed interaction potential (",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{
+         StyleBox["V", "TI"], "\[LongEqual]", 
+         FractionBox["1", "10"]}], TraditionalForm], "errors" -> {}, "input" -> 
+     "V=\\frac{1}{10}", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "535cd2bf-10fd-431b-b344-97f6514db983"],
+ "). The lower initial energy state is changed linearly with a parameter x.\n\
+\nThe upper graph shows the evolution of the energies of the new eigenstates ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       SubscriptBox["\[CapitalPsi]", "+"], TraditionalForm], "errors" -> {}, 
+     "input" -> "\\Psi_+", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "395f3068-d391-4db4-b524-b90740e419ac"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       SubscriptBox["\[CapitalPsi]", "-"], TraditionalForm], "errors" -> {}, 
+     "input" -> "\\Psi_-", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "9129aa5a-cb31-4bee-8265-2710193e4571"],
+ "  as function of x, \nhere now referred as ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       SubscriptBox[
+        StyleBox["E", "TI"], "+"], TraditionalForm], "errors" -> {}, "input" -> 
+     "E_+", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "60ef1aa5-762d-4cd1-b3fc-25dc2890fcac"],
+ "  and ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       SubscriptBox[
+        StyleBox["E", "TI"], "-"], TraditionalForm], "errors" -> {}, "input" -> 
+     "E_-", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "552cd4e5-060d-4628-a15e-85c739a381e8"],
+ ". For ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{
+         StyleBox["x", "TI"], "\[LongEqual]", "0"}], TraditionalForm], 
+     "errors" -> {}, "input" -> "x=0", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "4df4f995-b56e-48ac-8f99-7cbe53c7d50f"],
+ " it is ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["E", "TI"], "+"], 
+         RowBox[{"(", "0", ")"}], "\[LongEqual]", "1", "\[LongEqual]", 
+         SubscriptBox[
+          StyleBox["e", "TI"], "1"]}], TraditionalForm], "errors" -> {}, 
+     "input" -> "E_+ (0)=1=e_1", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "15c5c27d-e47b-43b6-80b6-55caf912ec1e"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["E", "TI"], "-"], 
+         RowBox[{"(", "0", ")"}], "\[LongEqual]", "0"}], TraditionalForm], 
+     "errors" -> {}, "input" -> "E_-(0)=0", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "745350a7-50c7-4872-b336-12956919010e"],
+ " which is the initial state without an interaction.\nUntil about x=0.8 ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       SubscriptBox[
+        StyleBox["E", "TI"], "-"], TraditionalForm], "errors" -> {}, "input" -> 
+     "E_- ", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "a51177f4-0b5d-483c-a871-417a74029738"],
+ " rises linearly with x and ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       SubscriptBox[
+        StyleBox["E", "TI"], "+"], TraditionalForm], "errors" -> {}, "input" -> 
+     "E_+", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "6feeff2b-1b3d-477c-a7c6-1df0869c2b04"],
+ " remains roughly constant which corresponds to the behaviour of the \n\
 initial energies without an interaction. For x>0.8 the interaction becomes \
-relevant. The linear behavior of E_m transitions 
-into constant behaviour while E_p changes from constant to linear behaviour \
-with f(x)=x as asymptote.
-
-The lower graph shows the probability of measuring the initial eigenstate \
-with energy e0=0 in the resulting eigenstates
-Pm (red line) and Pp(blue line). For x=0 the probability for obtaining e0 in \
-Pm is almost 1 which means that the interaction has
-only small influence on the final eigenstates. This agrees also with the \
-energy plot where the eigenstates only differed 
-from the initial energies for x>0.8. The \
-\>", "Text",
+relevant. The linear behavior of ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       SubscriptBox[
+        StyleBox["E", "TI"], "-"], TraditionalForm], "errors" -> {}, "input" -> 
+     "E_-", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "074c6bde-7088-429c-a3a3-62243d19f1a3"],
+ " transitions \ninto constant behaviour while ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       SubscriptBox[
+        StyleBox["E", "TI"], "+"], TraditionalForm], "errors" -> {}, "input" -> 
+     "E_+", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "5a47c813-01e9-4dd5-8e13-9934406089e3"],
+ " changes from constant to linear behaviour with f(x)=x as asymptote.\n\nThe \
+lower graph shows the probability of measuring the initial eigenstate ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       SubscriptBox["\[CapitalPsi]", "0"], TraditionalForm], "errors" -> {}, 
+     "input" -> "\\Psi_0", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "a646d497-763c-4a0c-aa07-3f7bcc21948b"],
+ " in the resulting eigenstates\n",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["p", "TI"], "-"], "\[LongEqual]", "<", 
+         SubscriptBox["\[CapitalPsi]", "0"], "|", 
+         SubscriptBox["\[CapitalPsi]", "-"], 
+         SuperscriptBox[">", "2"]}], TraditionalForm], "errors" -> {}, 
+     "input" -> "p_-=<\\Psi_0|\\Psi_->^2", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "ac5d8e79-d1a8-40ae-8e6a-de4c7791feb5"],
+ " (red line) and ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["p", "TI"], "+"], "\[LongEqual]", "<", 
+         SubscriptBox["\[CapitalPsi]", "0"], "|", 
+         SubscriptBox["\[CapitalPsi]", "+"], 
+         SuperscriptBox[">", "2"]}], TraditionalForm], "errors" -> {}, 
+     "input" -> "p_+=<\\Psi_0|\\Psi_+>^2", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "2fa308d6-eabf-4e92-bb3f-79f79d2741f2"],
+ "(blue line). For x=0 ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       SubscriptBox[
+        StyleBox["p", "TI"], "-"], TraditionalForm], "errors" -> {}, "input" -> 
+     "p_-", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "4d20a694-4bdf-4f0a-ac3a-8793d26be3c0"],
+ " is almost 1 and stays close to 1 for ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{
+         StyleBox["x", "TI"], "<", "0.7"}], TraditionalForm], "errors" -> {}, 
+     "input" -> "x<0.7", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "437c938c-9f2d-469c-b019-0b781100b0ca"],
+ "\n which means that the interaction has only small influence on the final \
+eigenstates for small x. This agrees also with \n the energy plot where the \
+eigenstates only differed from the initial energies for x>0.8. For x around \
+1, ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       SubscriptBox[
+        StyleBox["p", "TI"], "-"], TraditionalForm], "errors" -> {}, "input" -> 
+     "p_-", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "d0fec081-5c3b-41fc-a153-375363355f82"],
+ " drops significantly\n with a linear phase at x=1. Its slope becomes \
+shallower while approaching ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["p", "TI"], "-"], "\[LongEqual]", "0"}], TraditionalForm], 
+     "errors" -> {}, "input" -> "p_-=0", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "20ea1366-14d7-4499-b389-dd7205b415e5"],
+ ". Both probabilities are point symmetric\n in (1, 0.5) and add up to 1. \
+This shows, that the state with increasing energy ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{"|", 
+         SubscriptBox["\[CapitalPsi]", "0"], ">"}], TraditionalForm], 
+     "errors" -> {}, "input" -> "|\\Psi_0>", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "f2eef1d6-fce7-4d4f-a426-28c7f504d747"],
+ " first mainly contributes to ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{"|", 
+         SubscriptBox["\[CapitalPsi]", "-"], ">"}], TraditionalForm], 
+     "errors" -> {}, "input" -> "|\\Psi_->", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "8fc63bd2-32ae-44ec-8954-5afadae8d8a9"],
+ ", then \n mixes with ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{"|", 
+         SubscriptBox["\[CapitalPsi]", "1"], ">"}], TraditionalForm], 
+     "errors" -> {}, "input" -> "|\\Psi_1>", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "6de607c9-0ad2-4c0f-8745-a5a2e0a27232"],
+ " and finally mainly contributes to the higher energy state ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[Association["boxes" -> FormBox[
+       RowBox[{"|", 
+         SubscriptBox["\[CapitalPsi]", "+"], ">"}], TraditionalForm], 
+     "errors" -> {}, "input" -> "|\\Psi_+>", "state" -> "Boxes"],
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "769124e6-8113-45ca-8c57-d6910d800540"],
+ ". This can be also seen in the energy plot.\n"
+}], "Text",
  CellChangeTimes->{{3.8431247120402136`*^9, 3.843124721634906*^9}, {
    3.8431247540758767`*^9, 3.843124799001775*^9}, {3.843124846893409*^9, 
    3.843124878187383*^9}, {3.8431249638352666`*^9, 3.8431250232695227`*^9}, {
@@ -1113,181 +1455,31 @@ from the initial energies for x>0.8. The \
    3.8432007764050694`*^9}, {3.843201038936145*^9, 3.8432011307925673`*^9}, {
    3.843201166038102*^9, 3.84320119871078*^9}, {3.843201276902809*^9, 
    3.843201574215798*^9}, 3.843201607991984*^9, {3.843201658264179*^9, 
-   3.8432017190967617`*^9}},ExpressionUUID->"66a1bbd8-d7b2-4ae8-96ab-\
-e4b5f78a132b"],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.8431369792349343`*^9, 
-  3.8431369792417383`*^9}},ExpressionUUID->"61c72d2c-e8f4-4ee8-bf01-\
-f943f86b278a"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Plot", "[", 
-  RowBox[{
-   SqrtBox[
-    RowBox[{"26", "-", 
-     RowBox[{"50", " ", "x"}], "+", 
-     RowBox[{"25", " ", 
-      SuperscriptBox["x", "2"]}]}]], ",", " ", 
-   RowBox[{"{", 
-    RowBox[{"x", ",", "0", ",", "2"}], "}"}]}], "]"}]], "Input",
- InitializationCell->True,
- CellChangeTimes->{{3.8431241779328213`*^9, 3.8431241894446135`*^9}, {
-  3.843124472848071*^9, 3.8431244878375516`*^9}, {3.843124527738574*^9, 
-  3.8431245437032785`*^9}, {3.8431252318126125`*^9, 
-  3.843125281496277*^9}},ExpressionUUID->"e227c81e-a23a-4c57-93aa-\
-bfe540302ad2"],
-
-Cell[BoxData[
- GraphicsBox[{{{}, {}, 
-    TagBox[
-     {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[1.6], Opacity[
-      1.], LineBox[CompressedData["
-1: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
-       "]]},
-     Annotation[#, "Charting`Private`Tag$23862#1"]& ]}, {}},
-  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
-  Axes->{True, True},
-  AxesLabel->{None, None},
-  AxesOrigin->{0, 1.0000002961790746`},
-  DisplayFunction->Identity,
-  Frame->{{False, False}, {False, False}},
-  FrameLabel->{{None, None}, {None, None}},
-  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
-  GridLines->{None, None},
-  GridLinesStyle->Directive[
-    GrayLevel[0.5, 0.4]],
-  ImagePadding->All,
-  Method->{
-   "DefaultBoundaryStyle" -> Automatic, 
-    "DefaultGraphicsInteraction" -> {
-     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-      "Effects" -> {
-       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-        "Droplines" -> {
-         "freeformCursorMode" -> True, 
-          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
-    AbsolutePointSize[6], "ScalingFunctions" -> None, 
-    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
-        (Identity[#]& )[
-         Part[#, 1]], 
-        (Identity[#]& )[
-         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
-        (Identity[#]& )[
-         Part[#, 1]], 
-        (Identity[#]& )[
-         Part[#, 2]]}& )}},
-  PlotRange->{{0, 2}, {1.0000002961790746`, 5.09901931347428}},
-  PlotRangeClipping->True,
-  PlotRangePadding->{{
-     Scaled[0.02], 
-     Scaled[0.02]}, {
-     Scaled[0.05], 
-     Scaled[0.05]}},
-  Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{
-  3.843123745762978*^9, 3.8431239254160905`*^9, 3.843123979528948*^9, 
-   3.843124544687727*^9, {3.8431252493021483`*^9, 3.8431252679923897`*^9}},
- CellLabel->
-  "Out[169]=",ExpressionUUID->"9bc77001-f48b-463c-9751-4cc04b987016"]
-}, Open  ]],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.843198729917881*^9, 
-  3.843198731275469*^9}},ExpressionUUID->"7f59707a-1c44-41de-b94c-\
-b7e7c5c9bd2e"],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.8431249518635993`*^9, 
-  3.8431249582057333`*^9}},ExpressionUUID->"5bb5932e-58e5-44fc-9006-\
-b2c1b4cb2357"]
+   3.8432017190967617`*^9}, {3.8432104455249634`*^9, 
+   3.8432104873770723`*^9}, {3.843210524643361*^9, 3.843210550949037*^9}, {
+   3.8432105877205114`*^9, 3.8432106112287273`*^9}, {3.843210838505546*^9, 
+   3.843210882814902*^9}, {3.8432110284519033`*^9, 3.843211057058938*^9}, {
+   3.8432118105728807`*^9, 3.8432118906128407`*^9}, {3.843211926150831*^9, 
+   3.8432119669243965`*^9}, {3.8432119988530684`*^9, 3.843212050408784*^9}, {
+   3.843212136616993*^9, 3.843212153655856*^9}, {3.8432122368070292`*^9, 
+   3.843212324642355*^9}, {3.843212502433978*^9, 3.84321269404928*^9}, {
+   3.843212833027622*^9, 3.843212896273386*^9}, {3.843212944546821*^9, 
+   3.8432130753104305`*^9}, {3.8432136951336126`*^9, 
+   3.8432137032563477`*^9}, {3.843214068784585*^9, 3.8432140802953353`*^9}, {
+   3.843214115156258*^9, 3.843214159073368*^9}, {3.8432142559911585`*^9, 
+   3.843214485515362*^9}, {3.843214518742796*^9, 3.843214559294341*^9}, {
+   3.843214658909582*^9, 
+   3.8432146810445595`*^9}},ExpressionUUID->"66a1bbd8-d7b2-4ae8-96ab-\
+e4b5f78a132b"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1853, 1025},
-WindowMargins->{{0, Automatic}, {0, Automatic}},
-Magnification:>1.2 Inherited,
-FrontEndVersion->"12.0 for Linux x86 (64-bit) (April 8, 2019)",
-StyleDefinitions->"Default.nb"
+WindowSize->{949, 497},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification:>0.9 Inherited,
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (July 9, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"896c095e-55d0-46d9-8f11-15abb9a314c6"
 ]
 (* End of Notebook Content *)
 
@@ -1301,53 +1493,46 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 255, 4, 81, "Section",ExpressionUUID->"ac86f45a-2b6c-4c09-9951-81107ba2402d"],
-Cell[838, 28, 287, 6, 43, "Text",ExpressionUUID->"6198f550-32fe-419f-99b9-09592f7f32e1"]
+Cell[580, 22, 255, 4, 59, "Section",ExpressionUUID->"ac86f45a-2b6c-4c09-9951-81107ba2402d"],
+Cell[838, 28, 287, 6, 31, "Text",ExpressionUUID->"6198f550-32fe-419f-99b9-09592f7f32e1"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1162, 39, 307, 4, 80, "Title",ExpressionUUID->"6a9dcf1b-96ea-4604-aa0e-bf2f288c8976"],
+Cell[1162, 39, 307, 4, 59, "Title",ExpressionUUID->"6a9dcf1b-96ea-4604-aa0e-bf2f288c8976"],
 Cell[CellGroupData[{
-Cell[1494, 47, 456, 11, 37, "Input",ExpressionUUID->"3e40bfcc-d31c-4293-a336-04b689ecb894"],
-Cell[1953, 60, 7544, 143, 290, "Output",ExpressionUUID->"97621acf-1813-4adb-bb34-4cd7b858aedf"]
+Cell[1494, 47, 455, 11, 25, "Input",ExpressionUUID->"3e40bfcc-d31c-4293-a336-04b689ecb894"],
+Cell[1952, 60, 7564, 143, 215, "Output",ExpressionUUID->"a049fc9e-51b1-49a4-91bb-c7d528b6298e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9534, 208, 192, 6, 99, "Subsection",ExpressionUUID->"4490d7e9-faf4-476b-94ba-29ffb68dae6d"],
-Cell[9729, 216, 497, 12, 37, "Input",ExpressionUUID->"543378c8-134c-4faf-88e5-74d7a7d1d1ee"],
+Cell[9553, 208, 192, 6, 72, "Subsection",ExpressionUUID->"4490d7e9-faf4-476b-94ba-29ffb68dae6d"],
+Cell[9748, 216, 496, 12, 26, "Input",ExpressionUUID->"543378c8-134c-4faf-88e5-74d7a7d1d1ee"],
 Cell[CellGroupData[{
-Cell[10251, 232, 217, 3, 37, "Input",ExpressionUUID->"7717a99a-dace-4d10-b1de-107590a7df46"],
-Cell[10471, 237, 622, 19, 81, "Output",ExpressionUUID->"e8312583-a386-4ada-aea9-6e1dd8c80761"]
+Cell[10269, 232, 216, 3, 26, "Input",ExpressionUUID->"7717a99a-dace-4d10-b1de-107590a7df46"],
+Cell[10488, 237, 643, 19, 54, "Output",ExpressionUUID->"1d171def-21f8-423c-bc0c-6b76c9127fbb"]
 }, Open  ]],
-Cell[11108, 259, 498, 13, 56, "Input",ExpressionUUID->"59b24c7b-8d2f-42ee-8874-f8f9d7dba854"],
+Cell[11146, 259, 493, 12, 41, "Input",ExpressionUUID->"59b24c7b-8d2f-42ee-8874-f8f9d7dba854"],
 Cell[CellGroupData[{
-Cell[11631, 276, 223, 4, 38, "Input",ExpressionUUID->"dd5606bb-7d30-474a-b84d-7e21f0121894"],
-Cell[11857, 282, 724, 22, 99, "Output",ExpressionUUID->"a0d71bb5-509e-4e6a-b132-ca7df77bb2b5"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[12618, 309, 243, 5, 38, "Input",ExpressionUUID->"96249be6-1b5c-47e8-a32f-4c66b1b9eeae"],
-Cell[12864, 316, 813, 26, 63, "Output",ExpressionUUID->"c99e8fa5-eeeb-42c5-9a12-6c5f20eb3374"]
+Cell[11664, 275, 244, 4, 25, "Input",ExpressionUUID->"dd5606bb-7d30-474a-b84d-7e21f0121894"],
+Cell[11911, 281, 746, 22, 70, "Output",ExpressionUUID->"2ea85004-fd4c-45e4-b6e3-4a6cc71d0cc1"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[13714, 347, 288, 6, 38, "Input",ExpressionUUID->"3a30291e-db49-450d-8649-cc8ad06d77e1"],
-Cell[14005, 355, 8909, 167, 286, "Output",ExpressionUUID->"c19fab4e-8eac-4b7d-86c9-896c714e773a"]
+Cell[12694, 308, 238, 4, 26, "Input",ExpressionUUID->"96249be6-1b5c-47e8-a32f-4c66b1b9eeae"],
+Cell[12935, 314, 830, 25, 44, "Output",ExpressionUUID->"0110d0d3-03c1-4ff2-be87-60974f46f1d9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13802, 344, 287, 6, 25, "Input",ExpressionUUID->"3a30291e-db49-450d-8649-cc8ad06d77e1"],
+Cell[14092, 352, 8928, 167, 212, "Output",ExpressionUUID->"c6ea9ed9-5709-41b8-990b-8c5a861a6cdb"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[22963, 528, 335, 9, 66, "Subsection",ExpressionUUID->"b097eaef-8de0-49f7-a9fa-20a8e9c46278"],
+Cell[23069, 525, 335, 9, 48, "Subsection",ExpressionUUID->"b097eaef-8de0-49f7-a9fa-20a8e9c46278"],
 Cell[CellGroupData[{
-Cell[23323, 541, 1514, 39, 207, "Input",ExpressionUUID->"5ba02e51-4c0f-4dbd-bdbe-08103c233969"],
-Cell[24840, 582, 937, 28, 63, "Output",ExpressionUUID->"14831bcc-a69d-417a-bb84-06da6efb29b9"],
-Cell[25780, 612, 9086, 171, 286, "Output",ExpressionUUID->"27f161e5-0137-40aa-8d40-2a375eaaec3b"],
-Cell[34869, 785, 16193, 288, 287, "Output",ExpressionUUID->"eecf0920-265f-481a-a985-727f23d52e9f"]
+Cell[23429, 538, 1507, 37, 129, "Input",ExpressionUUID->"5ba02e51-4c0f-4dbd-bdbe-08103c233969"],
+Cell[24939, 577, 955, 27, 44, "Output",ExpressionUUID->"0459309c-32cc-4772-9104-f49305d726a7"],
+Cell[25897, 606, 9104, 170, 212, "Output",ExpressionUUID->"dcaee1e8-ec2b-4d80-9d51-591b983de500"],
+Cell[35004, 778, 16209, 287, 213, "Output",ExpressionUUID->"74fa7b12-1a20-4b5d-b7c8-6df2e6fdd5fb"]
 }, Open  ]],
-Cell[51077, 1076, 2378, 40, 387, "Text",ExpressionUUID->"66a1bbd8-d7b2-4ae8-96ab-e4b5f78a132b"],
-Cell[53458, 1118, 156, 3, 38, "Input",ExpressionUUID->"61c72d2c-e8f4-4ee8-bf01-f943f86b278a"],
-Cell[CellGroupData[{
-Cell[53639, 1125, 582, 15, 77, "Input",ExpressionUUID->"e227c81e-a23a-4c57-93aa-bfe540302ad2",
- InitializationCell->True],
-Cell[54224, 1142, 6652, 128, 294, "Output",ExpressionUUID->"9bc77001-f48b-463c-9751-4cc04b987016"]
-}, Open  ]],
-Cell[60891, 1273, 152, 3, 38, InheritFromParent,ExpressionUUID->"7f59707a-1c44-41de-b94c-b7e7c5c9bd2e"],
-Cell[61046, 1278, 156, 3, 38, "Input",ExpressionUUID->"5bb5932e-58e5-44fc-9006-b2c1b4cb2357"]
+Cell[51228, 1068, 5082, 121, 58, "Text",ExpressionUUID->"5375db03-28bd-4ade-9c96-a546ca3c40b1"],
+Cell[56313, 1191, 12580, 281, 404, "Text",ExpressionUUID->"66a1bbd8-d7b2-4ae8-96ab-e4b5f78a132b"]
 }, Open  ]]
 }, Open  ]]
 }
