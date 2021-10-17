@@ -131,7 +131,7 @@ od:</Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">x2:=eval(x1,{b=0.1,c=1,F=10,omega=10})</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">x2:=eval(x1,{b=0.1,c=1,F=10,omega=10});</Text-field>
 </Input>
 <Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEjeDJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiYtRiw2JVEieEYnRi9GMi1GNjYtUTAmQXBwbHlGdW5jdGlvbjtGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GWC1JKG1mZW5jZWRHRiQ2JC1GIzYmLUYsNiVRInRGJ0YvRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOUY5RjktRjY2LVEpJmVxdWFscztGJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUYjNiotRiM2Ji1GZW42JC1GIzYmLUkjbW5HRiQ2JFEuMC4wNTA0OTk4OTc5OUYnRjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZkcC1GIzYmLUZdcDYkUSwyLjUwMDU1MTY0MUYnRjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSEZXRlktRl1wNiRRLSZJbWFnaW5hcnlJO0YnRjlGOUY5RjlGW3EtSSVtc3VwR0YkNiUtRjY2LVEvJkV4cG9uZW50aWFsRTtGJ0Y5RjtGPkZARkJGREZGRkhGVy9GTlEsMC4xMTExMTExZW1GJy1GIzYmLUZlbjYkLUYjNiYtRl1wNiRRNyZ1bWludXMwOzAuMDUwMDAwMDAwMDBGJ0Y5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSEZjcEZlcC1GIzYmLUZdcDYkUS0wLjk5ODc0OTIxODBGJ0Y5RltxRl5xRjlGOUY5RltxRmluRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRjlGYnItRiM2Ji1GZW42JC1GIzYmRlxwRmJyRmZwRjlGOUZbcS1GYnE2JUZkcS1GIzYmLUZlbjYkLUYjNiZGX3JGYHBGZXJGOUY5RltxRmluRjlGanJGOUZici1GIzYmLUZdcDYkUS8wLjAwMTAyMDE5OTk1OUYnRjlGW3EtRiM2Ji1GLDYlUSRzaW5GJy9GMEY9RjlGVC1GZW42JC1GIzYmLUZdcDYkUSMxMEYnRjlGW3FGaW5GOUY5RjlGOUZgcC1GIzYmLUZdcDYkUS0wLjEwMDk5OTc5NTlGJ0Y5RltxLUYjNiYtRiw2JVEkY29zRidGZXRGOUZURmZ0RjlGOUY5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSN4MkdGKC8tSSJ4R0YoNiNJInRHRigsKiomXiQkIisqeiopKlxdISM2JCErVDtiK0QhIioiIiItSSRleHBHRiU2IyomXiQkISsrKysrXUY4JCIrIT0jXCgpKiohIzVGPEYyRjxGPEY8KiZeJEY2JCIrVDtiK0RGO0Y8LUY+NiMqJl4kRkIkISshPSNcKCkqKkZGRjxGMkY8RjxGPC1JJHNpbkdGJTYjLCRGMiIjNSQiK2YqKj4/NSEjNy1JJGNvc0dGJUZTJCErZnoqKjQ1RkY3I0Yu</Equation></Text-field>
 </Output>
@@ -144,7 +144,7 @@ od:</Text-field>
 </Output>
 </Group>
 <Group labelreference="L21" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">?plot</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
 </Input>
 </Group>
 <Group labelreference="L47" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
