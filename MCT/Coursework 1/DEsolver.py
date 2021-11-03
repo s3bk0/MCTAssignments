@@ -35,7 +35,7 @@ plt.plot(x, np.cos(x))
 
 
 ################## Solution of the differential equation #####################
-dt = 5e-3 # step size on time scale
+dt = 1e-2 # step size on time scale
 N = 2*np.pi / dt
 t = np.arange(0, (N+1)*dt, dt) # time values for later reference in the plots
 
@@ -50,11 +50,13 @@ A = np.diag(2 + 4*dt**2*g(2*t)) \
 A[-1,0] = -1
 A[0,-1] = -1
 
+A *= -1
+
 # solving the eigenvector problem
 slist, solutions = linalg.eig(A)
 
 # getting the indices of the lowest eigenvalues
-mininds = slist.argsort()
+mininds = (-1*slist).argsort()
 # print(mininds, slist[mininds])
 
 # set up the plot
