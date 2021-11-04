@@ -50,13 +50,13 @@ A = np.diag(2 + 4*dt**2*g(2*t)) \
 A[-1,0] = -1
 A[0,-1] = -1
 
-A *= -1
+
 
 # solving the eigenvector problem
 slist, solutions = linalg.eig(A)
 
 # getting the indices of the lowest eigenvalues
-mininds = (-1*slist).argsort()
+mininds = (slist).argsort()
 # print(mininds, slist[mininds])
 
 # set up the plot
