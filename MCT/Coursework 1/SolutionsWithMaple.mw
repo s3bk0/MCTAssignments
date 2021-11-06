@@ -2,9 +2,10 @@
 <Worksheet>
 <Version major="2021" minor="1"/>
 <Label-Scheme value="2" prefix=""/>
-<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
 </View-Properties>
-<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" scientificx="true" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="[10, 10]" useclientjvm="true" format="document" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Caption-Properties Caption-Type="table" captionposition="1" captionalignment="0"></Caption-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" scientificx="true" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="[10, 10]" useclientjvm="true" format="worksheet" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
 <Styles>
 <Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
@@ -84,9 +85,166 @@
 <Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
 </Styles>
 <Startup-Code startupcode=""/>
-<Task/><Presentation-Block>
-<Group view="presentation" inline-output="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUrZXhlY3V0YWJsZUdGNEYv">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUrZXhlY3V0YWJsZUdGNEYv</Equation></Text-field>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1012" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Caption Text" executable="true" layout="Normal"><Font executable="true">Q2 Finding Solutions in Maple</Font></Text-field>
 </Input>
-</Group></Presentation-Block>
+</Group>
+<Group labelreference="L311" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+Construction of the oscillating function g(t) from the a general triangle function from the packet DynamicSystems. The function is initially a sawtooth function but can be modified quite easy for positive t. Modification for negative t seems not to be supported, so that g(t) is constructed as piecewise function with a Triangle function that was mirrored at the y axis for negative t. For this purpose compose from MTM was used to invert the t axis.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1010" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DynamicSystems):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L167" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(MTM):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L3" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#plot(-Triangle(2,1,0.5,0,-1),t=-4*Pi..4*Pi)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L160" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">g := t -&gt; piecewise(t&gt;=0, -Triangle(2,1,0.5,0,-1), compose(-Triangle(2,1,0.5,0,-1), -t) );</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot([g(t), cos(t)], t=-4*Pi..6*Pi, legend=[&quot;g(t)&quot;,&quot;cos(t)&quot;])</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L227" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font style="Maple Input">
+</Font><Font executable="true">In the following a few periodic solutions are found by calculating solutions numerically for initial conditions w(0)=1 and D(w)(0)=0 for many s values in the interval [0,40]. To select the periodic solutions from the results, the difference between first and last value of the [0,2pi] interval, dval=w(2*Pi)-w(0), and the difference of the first derivative at these points, ddval= Dw(2*Pi)-Dw(0), are observed. In case both measures are almost 0 it is likely that there the solution is peridic. Their behaviour with s is shown in the plot and their roots are saved and printed.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1011" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L10" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"># loop to find periodic solutions;
+ds:=0.03: #step size of s per loop;
+
+# value determining upper boundary for finding root;
+eps:=0.05:
+
+# initial s, a bit larger than 0 to avoid large differences in plot
+s:=0.2:
+
+# lists for storing dval, ddval, used s values and the results;
+dvals:=NULL:
+ddvals:=NULL:
+slist:= NULL:
+matcheds:=NULL:
+
+for i from 0 to 1000 do:
+ 
+ # store current s;
+ slist:=slist,s;
+ 
+ # set up the current differential eq;
+ deq:= :-diff(w(t),t$2) = (4*g(2*t)-s)*w(t);
+
+ # solve;
+ s1:=:-dsolve({deq, w(0) =1, D(w)(0)=0}, numeric);
+
+ # calculate differences to be minimized;
+ newdval:= rhs(s1(2*Pi)[2] - s1(0)[2]);
+ newddval:= rhs(s1(2*Pi)[3] - s1(0)[3]);
+
+ # store differences;
+ dvals:= dvals, newdval;
+ ddvals:= ddvals, newddval;
+
+ # decide if differences indicate periodic solution and store it;
+ if abs(newdval)&lt;eps and abs(newddval)&lt;eps then
+  matcheds := matcheds,[s, newdval, newddval]: # current differences stored as well
+  print(s);
+ end if;
+
+ # increment s;
+ s:=s+ds;
+od:
+
+# convert sequences to actual lists;
+matcheds=[matcheds]:
+dvals:=[dvals]:
+ddvals:=[ddvals]:
+slist:=[slist]:
+
+# make lists suitable to be plotted together;
+dv1:=seq([slist[i],dvals[i]],i=1..nops(slist)):
+dv2:=seq([slist[i],ddvals[i]],i=1..nops(slist)):
+
+plot([[dv1],[dv2]], legend=[&quot;w(2Pi)-w(0)&quot;,&quot;Dw(2Pi)-Dw(0)&quot;]);</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1019" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sp:=nops([matcheds])</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L371" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Text" executable="true" layout="Normal"><Font executable="true">Lets check if these solutions are actually periodic</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1150" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">deq:= :-diff(w(t),t$2) = (4*g(2*t)-matcheds[1][1])*w(t):
+s1:=:-dsolve({deq, w(0)=1, D(w)(0)=0}, numeric):
+plots[odeplot](s1, [t, w(t)], t=0..12*Pi, numpoints=1200);
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L1156" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Text" executable="true" layout="Normal"><Font executable="true">=&gt; s=4.58 is not a periodic solution</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L36" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">s:=matcheds[2][1];
+deq:= :-diff(w(t),t$2) = (4*g(2*t)-s)*w(t):
+s1:=:-dsolve({deq, w(0)=1, D(w)(0)=0}, numeric):
+plots[odeplot](s1, [t, w(t)], t=-0..12*Pi, numpoints=1200);</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Text" executable="true" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"><Font executable="true">s=9.2 is most likely a periodic solution</Font></Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1177" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">s:=matcheds[3][1];
+deq:= :-diff(w(t),t$2) = (4*g(2*t)-s)*w(t):
+s1:=:-dsolve({deq, w(0)=1, D(w)(0)=0}, numeric):
+plots[odeplot](s1, [t, w(t)], t=-0..12*Pi, numpoints=1200);</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Text" executable="true" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"><Font executable="true">s=16.10 is most likely a periodic solution</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L220" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">s:=matcheds[4][1];
+deq:= :-diff(w(t),t$2) = (4*g(2*t)-s)*w(t):
+s1:=:-dsolve({deq, w(0)=1, D(w)(0)=0}, numeric):
+plots[odeplot](s1, [t, w(t)], t=-0..12*Pi, numpoints=1200);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L1189" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYzLUkjbWlHRiQ2J1Eic0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJTBmb250X3N0eWxlX25hbWVHUSVUZXh0RicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2L1EiPUYnRjJGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZRLUkjbW5HRiQ2JlEmMjUuMDdGJ0YyRjVGPy1GPDYvUSJ+RidGMkY1Rj9GQUZDRkVGR0ZJRktGTS9GUFEmMC4wZW1GJy9GU0Zmbi1GLDYnUSNpc0YnRi9GMkY1RjhGWC1GLDYnUSVtb3N0RidGL0YyRjVGOEZYLUYsNidRJ2xpa2VseUYnRi9GMkY1RjhGWC1GLDYnUSJhRidGL0YyRjVGOEZYLUYsNidRKXBlcmlvZGljRidGL0YyRjVGOEZYLUYsNidRKXNvbHV0aW9uRidGL0YyRjVGOEYyRj8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYzLUkjbWlHRiQ2J1Eic0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJTBmb250X3N0eWxlX25hbWVHUSVUZXh0RicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2L1EiPUYnRjJGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZRLUkjbW5HRiQ2JlEmMjUuMDdGJ0YyRjVGPy1GPDYvUSJ+RidGMkY1Rj9GQUZDRkVGR0ZJRktGTS9GUFEmMC4wZW1GJy9GU0Zmbi1GLDYnUSNpc0YnRi9GMkY1RjhGWC1GLDYnUSVtb3N0RidGL0YyRjVGOEZYLUYsNidRJ2xpa2VseUYnRi9GMkY1RjhGWC1GLDYnUSJhRidGL0YyRjVGOEZYLUYsNidRKXBlcmlvZGljRidGL0YyRjVGOEZYLUYsNidRKXNvbHV0aW9uRidGL0YyRjVGOEYyRj8=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1188" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUrZXhlY3V0YWJsZUdGNEYv">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUrZXhlY3V0YWJsZUdGNEYv</Equation></Text-field>
+</Input>
+</Group>
 </Worksheet>
