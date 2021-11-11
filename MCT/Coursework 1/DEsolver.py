@@ -35,13 +35,13 @@ plt.plot(x, np.cos(x))
 
 
 ################## Solution of the differential equation #####################
-dt = 1e-2 # step size on time scale
-N = 2*np.pi / dt
-t = np.arange(0, (N+1)*dt, dt) # time values for later reference in the plots
+N = 1000
+# discrete time values in the interval (t=2pi excluded because of boundary conditions)
+t = np.linspace(0, 2*np.pi, N+1)[:-1] 
+dt = t[1]-t[0] # step size on time scale
 
 # building the eigenvalue problem:
-# diagonal and offdiagonal entries, last parameter specifies 
-# offdiagonal position
+# diagonal and offdiagonal entries, last parameter specifies offdiagonal position
 A = np.diag(2 + 4*dt**2*g(2*t)) \
     - np.diag(np.ones(t.shape[0]-1), 1) \
     - np.diag(np.ones(t.shape[0]-1), -1)
@@ -50,14 +50,15 @@ A = np.diag(2 + 4*dt**2*g(2*t)) \
 A[-1,0] = -1
 A[0,-1] = -1
 
-
-
 # solving the eigenvector problem
 slist, solutions = linalg.eig(A)
 
 # getting the indices of the lowest eigenvalues
 mininds = (slist).argsort()
-# print(mininds, slist[mininds])
+
+# include the value at t=2pi that was not calculated
+t = np.append(t, 2*np.pi)
+solutions = np.concatenate((solutions, np.ones((1,N))*solutions[0,:]))
 
 # set up the plot
 fig, axes = plt.subplots(5,1, sharex=True, figsize=(11,7))

@@ -1,0 +1,109 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{xcolor}
+%\usepackage[german]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{subcaption}%\begin{subfigure}{Breite der Subfigure}
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{physics}
+\title{Coursework 1}
+\date{}
+%\author{Sebastian Kock}
+\begin{document}
+\maketitle
+\newcommand{\num}{\thenum \stepcounter{num} }
+\newcommand{\aufgabe}[1]{\subsection*{Aufgabe A\thesubsection: #1}
+    \stepcounter{subsection}}
+% \setcounter{section}{•}
+\setcounter{subsection}{1}
+\newcommand{\enumalph}{\renewcommand{\theenumi}{\alph{enumi}}}
+
+\section*{Description Q1}
+The task was to find numerical solutions to the differential
+equation 
+\begin{equation} \label{eq:DEQ}
+    \dv[2]{w}{t} = (4g(2t)-s)\ w(t)
+\end{equation}
+with periodic boundary conditions $w(0) = w(2\pi)$. $g(t)$ is a
+triangular periodic signal approximating $\cos(t)$ as shown in the 
+assignment text.
+
+To apply the method of finite differences the time interval $[0,2\pi]$
+is discretised to a finite number $N$ of evenly spaced values 
+$t_i,\ i\in I_N:=\{i\in \mathbb{N}_0\ | \ i\leq N\}$. The boundary values
+are defined as $t_0=0$ and $t_N=2 \pi$.
+Then, the second derivative of  $w(t)$ can be approximated by the 
+\textit{three-point-difference} formula
+\begin{equation}
+    \dv[2]{w}{t} = \frac{w(t_{i+1})-2 w(t_i)+w(t_{i-1}) )}{\Delta t^2},
+    \quad \Delta t := t_{i+1}-t_i\ i\in I_N
+\end{equation}
+known from the weekly material. Inserting this into equation \ref{eq:DEQ}
+yields a system of N linear equations
+\begin{equation}
+    \frac{w(t_{i+1})-2 w(t_i)+w(t_{i-1}) }{\Delta t^2}
+    =  (4g(2t_i)-s)\ w(t_i)\quad  \forall i\in I_N \setminus \{N\} \ .
+\end{equation}
+The boundary conditions can be expressed as $w(t_0)=w(t_{N})$
+so that $w(t_{-1}) = w(t_{N-1})$ which is important for the equations
+with $i=0$ and $i=N-1$ and enables to leave out $i=N$ in the calculation. 
+
+In order to solve these equations they need to be expressed in matrix
+vector form. Multiplying by $\Delta t^2$ and adding $4 \Delta t^2 g(2t_i)$ 
+to each equation yields the expression
+\begin{equation}
+    \left( 2+4 \Delta t^2 g(2t_i) \right) w(t_i) - w(t_{i+1}) -w(t_{i-1}) 
+    = \Delta t^2 s\ w(t_i) \forall i\in I_N \setminus \{N\} \ .
+\end{equation}
+Because of the boundary conditions, $w(t_N)$ does
+not need to be calculated so that the equations with mentioned $i=0$ and $i=N-1$
+are
+\begin{align}
+    \left( 2+4 \Delta t^2 g(2t_0) \right) w(t_0) - w(t_{1}) -w(t_{N-1}) 
+    &= \Delta t^2 s\ w(t_0)  \\
+    \left( 2+4 \Delta t^2 g(2t_{N-1}) \right) w(t_{N-1}) - w(t_0) -w(t_{N-2}) 
+    &= \Delta t^2 s\ w(t_{N-1})
+\end{align}
+This can now be written in vector notation by constructing a
+N dimensional vector 
+\begin{equation}
+    \vec{w}:=(w(t_0), w(t_1), ..., w(t_{N-1}))^T
+\end{equation}
+so that the equations become an eigenvalue problem
+\begin{equation}
+    \mathbf{A} \vec{w} = \lambda \vec{w} = \Delta t^2 s \vec{w}
+\end{equation}
+with $N\cross N$ matrix\footnote{see below for an example with $N=5$}
+\begin{equation}
+    \mathbf{A} = 
+    \begin{pmatrix}
+        d_0 & -1 & 0 & \cdots & 0 & -1 \\
+        -1  & d_1   & -1    & 0 & \cdots & 0 \\
+        0   &   -1  &   d_2 &   -1  & \cdots & 0 \\
+        \vdots  & 0  & -1  & \ddots & 0 & 0 \\
+        0   &   \vdots &  \vdots & 0 & \ddots & \vdots \\
+        -1  &   0   &   0   &   0   & \cdots & d_{N-1}
+    \end{pmatrix}, \quad d_i = 2+ 4 \Delta t^2 g(2t_i)\ .
+\end{equation}
+This problem can be easily implemented and solved by eigenvalue solvers.
+The resulting eigenvalues $\lambda$ need to be divided by $\Delta t^2$
+in order to obtain the $s$ of a solution. The calculated eigenvectors
+represent periodic solutions and can be plotted over $t$.
+
+\subsection*{Example with N=5}
+For more clarity the case with $N=5$ is shown here
+\begin{equation}
+        \mathbf{A} = 
+        \begin{pmatrix}
+            d_0 & -1 & 0 & 0  & -1 \\
+            -1  & d_1   & -1    & 0 & 0 \\
+            0   &   -1  &   d_2 &   -1   & 0 \\
+            0  & 0  & -1  & d_3 & -1  \\
+            -1   & 0  &  0 & -1& d_4 \\
+        \end{pmatrix}, \quad d_i = 2+ 4 \Delta t^2 g(2t_i)\ .
+\end{equation}
+\end{document}
