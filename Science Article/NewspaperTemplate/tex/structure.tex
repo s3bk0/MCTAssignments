@@ -1,0 +1,153 @@
+\setlength\topmargin{-48pt} % Top margin
+\setlength\headheight{0pt} % Header height
+\setlength\textwidth{7.0in} % Text width
+\setlength\textheight{9.5in} % Text height
+\setlength\oddsidemargin{-30pt} % Left margin
+\setlength\evensidemargin{-30pt} % Left margin (even pages) - only relevant with 'twoside' article option
+
+\usepackage[sfdefault]{FiraSans} %% option 'sfdefault' activates Fira Sans as the default text font
+\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
+% \usepackage{charter} % Charter font for main content
+\usepackage{lmodern}
+
+\frenchspacing % Reduces space after periods to make text more compact for a three-column layout
+
+\usepackage[svgnames]{xcolor} % Enabling colors by their 'svgnames'
+\usepackage{graphicx} % Required for including images
+\usepackage{amssymb,amsmath} % Math packages
+\usepackage{multicol} % Required for the three-column layout of the document
+\usepackage{url} % Clickable links
+\usepackage{enumitem} % Reduces the amount of space within and between lists with [noitemsep,nolistsep]
+\usepackage{marvosym} % Required for the use of symbols
+\usepackage{wrapfig} % Allows wrapping text around figures
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage{datetime} % Required for defining a custom date style
+\usepackage{wrapfig}
+\usepackage{caption}
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
+% Set a custom date format
+\usepackage[pdfpagemode=FullScreen, colorlinks=false]{hyperref}
+% Link colors and PDF behavior in Acrobat
+\usepackage{fancyhdr} % Required to define custom headers/footers
+\pagestyle{fancy} % Enables the custom headers/footers for all pages following this
+
+\usepackage{geometry} % Required for adjusting page dimensions
+
+\geometry{
+	top=1cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	left=2cm, % Left margin
+	right=2cm, % Right margin
+	includehead, % Include space for a header
+	includefoot, % Include space for a footer
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+
+%-----------------------------------------------------------
+% Header and footer
+\lfoot{
+}
+
+\cfoot{} % Empty center footer
+
+\rfoot{\footnotesize ~\\ Page \thepage} % Right footer - page counter
+
+\renewcommand{\headrulewidth}{0.0pt} % No horizontal rule for the header
+\renewcommand{\footrulewidth}{0.4pt} % Horizontal rule separating the footer from the document
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define separators
+% \newcommand{\HorRule}[1]{\noindent\rule{\linewidth}{#1}}
+\newcommand{\HorRule}{\color{DarkGoldenrod}\rule{\linewidth}{1pt}} % Defines the gold horizontal rule around the title
+% Creates a horizontal rule
+\newcommand{\SepRule}{\noindent % Creates a shorter separator rule
+    \begin{center}
+        \rule{250pt}{1pt} % Page width and rule width
+    \end{center}
+}
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define title and article styles
+\newcommand{\NewsletterName}[1]{ % Newsletter title
+    \begin{center}
+        \Huge \usefont{T1}{fvs}{b}{n} % Use the Bera Sans Bold font
+        #1
+    \end{center}
+    \par \normalsize \normalfont}
+
+\newcommand{\JournalIssue}[1]{ % Date and issue number at the top of the newsletter
+    \textsc{Physics World}\hfill \textsc{\mydate \today, No #1} % Right-aligned date and issue number
+    \par \normalsize \normalfont}
+
+\newcommand{\NewsItem}[1]{ % News item title
+    % \usefont{T1}{fvs}{n}{n} % Use the Bera Sans Normal font
+    \vspace{24pt} \large \textbf{#1}\vspace{5pt} % Print the title with space around it in a larger font size
+    \par \normalsize \normalfont}
+
+\newcommand{\NewsAuthor}[1]{ % Author name under the item title
+    \hfill by \textsc{#1} \vspace{20pt} % Right-aligned author name in small caps with space after it
+    \par \normalfont}
+
+\newenvironment{Figure}
+  {\par\medskip \noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip }
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\authorstyle}[1]{{\large\usefont{OT1}{phv}{b}{n}\color{DarkRed}#1}} % Authors style (Helvetica)
+
+\newcommand{\subtitlestyle}[1]{{\centering\Large\usefont{T1}{lmss}{m}{it} #1 \par}}
+
+\usepackage{titling} % Allows custom title configuration
+\usepackage{changepage}
+
+
+\pretitle{
+    \JournalIssue{4} % Issue number
+	\vspace{-10pt} % Move the entire title section up
+	\HorRule\vspace{10pt} % Horizontal rule before the title
+    \begin{center}
+        \vspace{10pt}
+        \includegraphics[width=0.6\linewidth]{330px-Quantum_Dots.jpg}
+        % \par\large\textit{An interesting caption to this drab picture\ldots}
+        \vspace{10pt}
+    \end{center}
+	% \fontsize{32}{36}\usefont{OT1}{phv}{b}{n}\selectfont % Helvetica
+    \fontsize{32}{36}\usefont{T1}{lmss}{b}{n}
+	\color{Black} % Text colour for the title and author(s) (original: DarkRed)
+    \centering
+}
+
+\posttitle{ \par\vskip 15pt % Whitespace under the title
+            \begin{adjustwidth}{1cm}{1cm}
+            \subtitlestyle{
+                A new generation of display technology using the powerful abilities of
+                quantum physics will enter the markets soon.
+                }
+            \end{adjustwidth}
+            }
+
+\preauthor{ \begin{flushright}} % Anything that will appear before \author is printed
+
+\postauthor{ \end{flushright}
+    % Anything that will appear after \author is printed
+	% \vspace{10pt} % Space before the rule
+	% \par\HorRule % Horizontal rule after the title
+	\vspace{-40pt} % Space after the title section
+}
+
+\title{Will Quantum Dots be Relevant in Future Displays?}
+% The article title
+
+\author{
+	\authorstyle{by somebody}
+	% \textsuperscript{1}\institution{Universidad Nacional Autónoma de
+	% 	México, Mexico City, Mexico}\\ % Institution 1
+}
+\date{}

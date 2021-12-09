@@ -1,0 +1,262 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Brus1998}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7cca39bf8ce4380ccc8887cbd9d352a6}{%
+           family={Brus},
+           familyi={B\bibinitperiod},
+           given={L.\bibnamedelimi E.},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of PhysicsAIP}%
+      }
+      \strng{namehash}{7cca39bf8ce4380ccc8887cbd9d352a6}
+      \strng{fullhash}{7cca39bf8ce4380ccc8887cbd9d352a6}
+      \strng{bibnamehash}{7cca39bf8ce4380ccc8887cbd9d352a6}
+      \strng{authorbibnamehash}{7cca39bf8ce4380ccc8887cbd9d352a6}
+      \strng{authornamehash}{7cca39bf8ce4380ccc8887cbd9d352a6}
+      \strng{authorfullhash}{7cca39bf8ce4380ccc8887cbd9d352a6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We model, in an elementary way, the excited electronic states of semiconductor crystallites sufficiently small (∼50 Å diam) that the electronic properties differ from those of bulk materials. In th...}
+      \field{issn}{0021-9606}
+      \field{issue}{9}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{8}
+      \field{title}{Electron–electron and electron‐hole interactions in small semiconductor crystallites: The size dependence of the lowest excited electronic state}
+      \field{volume}{80}
+      \field{year}{1998}
+      \field{pages}{4403}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.447218
+      \endverb
+      \verb{urlraw}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.447218
+      \endverb
+      \verb{url}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.447218
+      \endverb
+      \keyw{CRYSTALS,ELECTRONIC STRUCTURE,ELECTRON−ELECTRON COUPLING,ELECTRON−HOLE COUPLING,EXCITED STATES,SEMICONDUCTOR MATERIALS,SIZE}
+    \endentry
+    \entry{ctarticle}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4d0692262fd5aa32711700daec17d5b0}{%
+           family={Morrison},
+           familyi={M\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d0692262fd5aa32711700daec17d5b0}
+      \strng{fullhash}{4d0692262fd5aa32711700daec17d5b0}
+      \strng{bibnamehash}{4d0692262fd5aa32711700daec17d5b0}
+      \strng{authorbibnamehash}{4d0692262fd5aa32711700daec17d5b0}
+      \strng{authornamehash}{4d0692262fd5aa32711700daec17d5b0}
+      \strng{authorfullhash}{4d0692262fd5aa32711700daec17d5b0}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How quantum dots could challenge OLED for best TV picture}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cnet.com/tech/home-entertainment/how-quantum-dots-could-challenge-oled-for-best-tv-picture/
+      \endverb
+      \verb{url}
+      \verb https://www.cnet.com/tech/home-entertainment/how-quantum-dots-could-challenge-oled-for-best-tv-picture/
+      \endverb
+    \endentry
+    \entry{Shu2020}{article}{}
+      \name{author}{6}{}{%
+        {{hash=052e155e1fb6463cb0d5b80064a03c05}{%
+           family={Shu},
+           familyi={S\bibinitperiod},
+           given={Yufei},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8bd2a0a31066900e8ab7c0385c022a10}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Xing},
+           giveni={X\bibinitperiod}}}%
+        {{hash=0f14b584f3816a54c81489a9415e84e9}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Haiyan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d532e80db57f7112c19fe6519ff99436}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Zhuang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e8eae92834c263b3dc9c092792d792fb}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Yizheng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=53f8cf00d087103b3f1082de4da575df}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Xiaogang},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-VCH Verlag}%
+      }
+      \strng{namehash}{317f7e6429a156e96117e4e4978a1190}
+      \strng{fullhash}{868f973894fc8e75a7b1bae30977977b}
+      \strng{bibnamehash}{868f973894fc8e75a7b1bae30977977b}
+      \strng{authorbibnamehash}{868f973894fc8e75a7b1bae30977977b}
+      \strng{authornamehash}{317f7e6429a156e96117e4e4978a1190}
+      \strng{authorfullhash}{868f973894fc8e75a7b1bae30977977b}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article offers a materials-chemistry perspective for colloidal quantum dots (QDs) in the field of display, including QD-enhanced liquid-crystal-display (QD-LCD) and QD-based light-emitting-diodes (QLEDs) display. The rapid successes of QDs for display in the past five years are not accidental but have a deep root in both maturity of their synthetic chemistry and their unique chemical, optical, and optoelectronic properties. This article intends to discuss the natural match of QD emitters for display and chemical means to eventually bring about their full potential.}
+      \field{issn}{15213773}
+      \field{issue}{50}
+      \field{journaltitle}{Angewandte Chemie - International Edition}
+      \field{month}{12}
+      \field{title}{Quantum Dots for Display Applications}
+      \field{volume}{59}
+      \field{year}{2020}
+      \field{pages}{22312\bibrangedash 22323}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1002/ANIE.202004857
+      \endverb
+      \keyw{QD-LCD,QLED,display,luminescence,quantum dots}
+    \endentry
+    \entry{overwievpicture}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{AMOLED vs LCD: All the key differences explained - Android Authority}
+      \verb{urlraw}
+      \verb https://www.androidauthority.com/amoled-vs-lcd-differences-572859/
+      \endverb
+      \verb{url}
+      \verb https://www.androidauthority.com/amoled-vs-lcd-differences-572859/
+      \endverb
+    \endentry
+    \entry{Liu2020}{article}{}
+      \name{author}{11}{}{%
+        {{hash=a1a631d5f4d7d2ac0324c9a56d59e251}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhaojun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f1446c143143a1e1efcb454d066073fc}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Chun\bibnamedelima Ho},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=000db6cad1fc2f771fda4b23ef69b8cc}{%
+           family={Hyun},
+           familyi={H\bibinitperiod},
+           given={Byung\bibnamedelima Ryool},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=6995f1e27ef129eadf0fa61879ef64b6}{%
+           family={Sher},
+           familyi={S\bibinitperiod},
+           given={Chin\bibnamedelima Wei},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=9d473a689adff51ebc14d3ce53264bb9}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Zhijian},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f4312440c3643b0c8256129153418fea}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Bingqing},
+           giveni={B\bibinitperiod}}}%
+        {{hash=498b74d4fef5de7afd339c8a047a9210}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Fulong},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5520decc123b4011e7404ce760236ce7}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7a3823a6aa68f4d7dde54a9e519f1fec}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Chih\bibnamedelima Hsiang},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=123e122f9c7826280a4d929c12af744c}{%
+           family={Kuo},
+           familyi={K\bibinitperiod},
+           given={Hao\bibnamedelima Chung},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=02bae3e9f6f666178b7aadf2b9e28bfd}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Jr\bibnamedelima Hau},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{73bef2c6f366e414e229ea33181da7c8}
+      \strng{fullhash}{3fe1b091513cc82a8e67d05ec5aeb5ef}
+      \strng{bibnamehash}{3fe1b091513cc82a8e67d05ec5aeb5ef}
+      \strng{authorbibnamehash}{3fe1b091513cc82a8e67d05ec5aeb5ef}
+      \strng{authornamehash}{73bef2c6f366e414e229ea33181da7c8}
+      \strng{authorfullhash}{3fe1b091513cc82a8e67d05ec5aeb5ef}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Micro-light-emitting diodes (μ-LEDs) are regarded as the cornerstone of next-generation display technology to meet the personalised demands of advanced applications, such as mobile phones, wearable watches, virtual/augmented reality, micro-projectors and ultrahigh-definition TVs. However, as the LED chip size shrinks to below 20 μm, conventional phosphor colour conversion cannot present sufficient luminance and yield to support high-resolution displays due to the low absorption cross-section. The emergence of quantum dot (QD) materials is expected to fill this gap due to their remarkable photoluminescence, narrow bandwidth emission, colour tuneability, high quantum yield and nanoscale size, providing a powerful full-colour solution for μ-LED displays. Here, we comprehensively review the latest progress concerning the implementation of μ-LEDs and QDs in display technology, including μ-LED design and fabrication, large-scale μ-LED transfer and QD full-colour strategy. Outlooks on QD stability, patterning and deposition and challenges of μ-LED displays are also provided. Finally, we discuss the advanced applications of QD-based μ-LED displays, showing the bright future of this technology. Micrometre-sized light-emitting diodes (LEDs) based on quantum dots (QDs) will propel the next generation of display technologies, a review by leading researchers shows. Conventional LED designs, with phosphor coatings that convert light to different colours, are difficult to make smaller than 20 micrometres. Jr-Hau He at City University of Hong Kong and co-workers explain how this problem can be tackled using QDs, tiny particles whose optical properties can be tuned by varying their size, providing brighter and more precise colours. Ultra-high-resolution displays based on phospholuminescent QD-LEDs are now being released to the market thanks to finely-controlled methods for synthesising QDs and depositing them onto films. Further research should focus on the best ways to stabilise and protect QD films within LEDs, and to continue developing electroluminescent QD-LEDs, which could potentially outperform their phospholuminescent cousins.}
+      \field{issn}{2047-7538}
+      \field{issue}{1}
+      \field{journaltitle}{Light: Science and Applications 2020 9:1}
+      \field{month}{5}
+      \field{title}{Micro-light-emitting diodes with quantum dots in display technology}
+      \field{volume}{9}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1038/s41377-020-0268-1
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41377-020-0268-1
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41377-020-0268-1
+      \endverb
+      \keyw{Inorganic LEDs,Quantum dots}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
