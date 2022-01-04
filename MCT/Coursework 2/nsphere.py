@@ -20,7 +20,7 @@ def analyticSphereVol(n):
 Nsamples = int(1e6)
 
 # dimensions sphere volumes are calculated for
-dimvalues = np.arange(1, 15)
+dimvalues = np.arange(1, 16)
 volumes = []
 
 for n in dimvalues:
@@ -35,7 +35,7 @@ fig, ax = plt.subplots()
 ax.plot(dimvalues, volumes, label='calculated volumes')
 ax.plot(dimvalues, analyticSphereVol(dimvalues), label='analytic volumes')
 
-ax.set(title='volume of a n dimensional sphere', xlabel='dimension n', ylabel='volume')
+ax.set(title='volume of a n-dimensional sphere', xlabel='dimension n', ylabel='volume')
 
 ax.legend()
 plt.show()

@@ -20,7 +20,7 @@ def singlefeedForward(input, weights):
     -------
     NxI dim matrix of outputs modified with activation function
     """
-    return activation(weights@input.T).T #activation( np.sum(input * weights, axis=-1))
+    return activation(weights@input.T).T
 
 def propagateInput(input, weightlist):
     """propagate a data set of N input vectors down a general NN specified
@@ -74,8 +74,8 @@ alpha = 0.2
 
 # iteration parameters
 beta = 400
-maxiter = 50
-betastep = 700
+maxiter = 100
+betastep = 50
 eqiter = nweights*100 # 2600 if nhidden==5
 solutionfound = False
 
@@ -86,6 +86,7 @@ errorlist = [error]
 
 
 for b in range(maxiter):
+    # edit: stepping up beta got mostly uneccesary after enlarging hidden layer to 5
     for n in range(eqiter):
         # select weight randomly by flat index
         index = np.random.randint(nweights)
@@ -123,10 +124,6 @@ for b in range(maxiter):
 
         # check if table is memorised
         if np.all(np.heaviside(propagateInput(samples, weightlist)-0.5, 0) == target ):
-            print("\nNN output: ", propagateInput(samples, weightlist).reshape(-1))
-            print('target values: ', target.reshape(-1))
-            print('\nweights: ', *weightlist)
-
             # abort algorithm
             solutionfound = True
             break
@@ -141,6 +138,14 @@ for b in range(maxiter):
 
 if not solutionfound:
     print("no solution was found. Consider changing parameters")
+else:
+    print('\nA NN matching the truth table was found:\n')
+    print("A\tB\tC\tTarget\trounded NN output\traw NN output")
+
+    for a, b, c, t, out in zip(A, B, C, target.reshape(-1), propagateInput(samples, weightlist).reshape(-1)):
+        print(("{:}\t{:}\t{:}\t{:}\t\t{:}\t\t{:}").format(a, b, c, t, int(round(out,0)), round(out,2)))
+
+    print('\nweights: ', *weightlist)
 
 # plot error progress
 fig, ax = plt.subplots()
